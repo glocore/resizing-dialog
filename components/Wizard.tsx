@@ -41,8 +41,8 @@ export function Step1() {
           <div className="w-[48px]">
             {/* Remix logo */}
             <svg
-              width="40"
-              height="40"
+              width="48"
+              height="48"
               viewBox="0 0 100 100"
               fill="currentColor"
               className="text-gray-400 mt-1.5"
@@ -61,7 +61,7 @@ export function Step1() {
             <span className="text-gray-700 font-medium block">
               Remix with Supabase Starter
             </span>
-            <span>
+            <span className="text-sm">
               Remix starter with Supabase, TypeScript, TailwindCSS and Cypress.
             </span>
           </div>
@@ -92,7 +92,7 @@ export function Step1() {
             <span className="text-gray-700 font-medium block">
               Next.js Blog Starter
             </span>
-            <span>
+            <span className="text-sm">
               A customizable blog starter built with Next.js, Tailwind, and MDX.
             </span>
           </div>
@@ -125,7 +125,9 @@ export function Step1() {
             <span className="text-gray-700 font-medium block">
               Nuxt.js Starter
             </span>
-            <span>Nuxt.js, TypeScript, TailwindCSS, SEO and PWA ready.</span>
+            <span className="text-sm">
+              Nuxt.js, TypeScript, TailwindCSS, SEO and PWA ready.
+            </span>
           </div>
         </button>
       </div>
@@ -142,7 +144,7 @@ export function Step2() {
       </Description>
 
       <div className="mt-6 flex flex-col items-center text-gray-700">
-        <button className="flex items-center mb-5 w-1/4 group hover:text-black">
+        <button className="flex items-center mb-5 w-24 group hover:text-black">
           <div className="w-6 text-gray-600 group-hover:text-black">
             {/* GitHub logo */}
             <svg
@@ -163,7 +165,7 @@ export function Step2() {
           </div>
           <span className="ml-1.5 font-medium text-lg">GitHub</span>
         </button>
-        <button className="flex items-center mb-5 w-1/4 group hover:text-black">
+        <button className="flex items-center mb-5 w-24 group hover:text-black">
           <div className="w-6 group-hover:text-[#FC6D26]">
             {/* GitLab logo */}
             <svg
@@ -183,7 +185,7 @@ export function Step2() {
           </div>
           <span className="ml-1.5 font-medium text-lg">GitLab</span>
         </button>
-        <button className="flex items-center mb-5 w-1/4 group hover:text-black">
+        <button className="flex items-center mb-5 w-24 group hover:text-black">
           <div className="w-6 px-0.5 group-hover:text-[#2684FF]">
             {/* Bitbucket logo */}
             <svg
