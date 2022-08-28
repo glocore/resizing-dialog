@@ -34,7 +34,7 @@ export function Step1() {
       <div className="mt-5">
         <button
           onClick={() => setSelected(0)}
-          className={`mt-3 text-left text-gray-500 border-2 ${
+          className={`w-full mt-3 text-left text-gray-500 border-2 ${
             selected === 0 ? "border-indigo-700" : "border-gray-200"
           } flex px-4 py-3 rounded-md hover:shadow outline-none`}
         >
@@ -68,7 +68,7 @@ export function Step1() {
         </button>
         <button
           onClick={() => setSelected(1)}
-          className={`mt-3 text-left text-gray-500 border-2 ${
+          className={`w-full mt-3 text-left text-gray-500 border-2 ${
             selected === 1 ? "border-indigo-700" : "border-gray-200"
           } flex px-4 py-3 rounded-md hover:shadow outline-none`}
         >
@@ -99,7 +99,7 @@ export function Step1() {
         </button>
         <button
           onClick={() => setSelected(2)}
-          className={`mt-3 text-left text-gray-500 border-2 ${
+          className={`flex-1 w-full mt-3 text-left text-gray-500 border-2 ${
             selected === 2 ? "border-indigo-700" : "border-gray-200"
           } flex px-4 py-3 rounded-md hover:shadow outline-none`}
         >
@@ -126,7 +126,7 @@ export function Step1() {
               Nuxt.js Starter
             </span>
             <span className="text-sm">
-              Nuxt.js, TypeScript, TailwindCSS, SEO and PWA ready.
+              Nuxt.js starter with TypeScript, TailwindCSS. SEO and PWA ready.
             </span>
           </div>
         </button>
