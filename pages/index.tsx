@@ -5,7 +5,7 @@ import ResizingBox from "../components/ResizingBox";
 import { Steps } from "../components/Steps";
 import { Step1, Step2, Step3 } from "../components/Wizard";
 
-const wizardSteps = [<Step1 />, <Step2 />, <Step3 />];
+const wizardSteps = [<Step1 key={0} />, <Step2 key={1} />, <Step3 key={2} />];
 
 export default function App() {
   const [step, setStep] = useState(0);
